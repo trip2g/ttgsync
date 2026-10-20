@@ -95,16 +95,11 @@ Your trip2g server is also a git repository: you can clone it, and a push to `ma
 
 ## Installation
 
-This plugin is not yet available in the official Obsidian Community Plugins directory. You can install it using [BRAT](https://tfthacker.com/BRAT) (Beta Reviewers Auto-update Tester).
+Install "trip2g sync" from Settings → Community plugins → Browse.
 
-### Install via BRAT
+This repository is the community-directory build of [trip2g/obsidian-sync](https://github.com/trip2g/obsidian-sync). The code is the same; only the plugin id differs (`ttgsync` here, `trip2g` there), because directory ids can't contain digits. Issues and pull requests go to trip2g/obsidian-sync.
 
-1. Install the BRAT plugin from Obsidian Community Plugins
-2. Open BRAT settings in Obsidian
-3. Click "Add Beta plugin"
-4. Enter this repository URL: `https://github.com/trip2g/obsidian-sync`
-5. Click "Add Plugin"
-6. Enable "trip2g sync" in Obsidian Settings → Community Plugins
+Install only one of the two in a vault. If your vault came from a trip2g onboarding download, it already has the `trip2g` copy (updated through BRAT); keep that one, or turn it off before you enable this one, so the two don't sync the same folder.
 
 ## Configuration
 
